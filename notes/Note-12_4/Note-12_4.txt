@@ -1,0 +1,63 @@
+
+Font Notes
+
+fPixelHangul
+Found a pixel font online that supports Korean characters, if font size is greater than 11 it will become blurry
+Must scale text using font_text_transformed, if done this way must adjust margins in oText so that the text will match the size of the text box
+
+Main Menu
+Need to make variables more human readable
+Add resolution options and functionality to game menu - graphics
+- closely followed tutorial - Menus from FriendlyCosmonaut on youtube
+Link - https://www.youtube.com/playlist?list=PLSFMekK0JFgx2vmcCnttxxhrNVTjUB8R1
+
+Start Screen/Main Menu
+Not certain if we should use a multi slot save system or single file
+Need to test hidden menu items
+Test drawing save/load slots if multi slots will be used
+if not need to test saving and loading data at start screen so that hidden menu's will appear when going to Main Menu
+need to test resetting saved data when new game is selected and a save file of player and scroll grid exists
+Should also implement a warning that the save data will be over wrtitten when a new game is created
+
+- Potentially add a new game+ feature so that game can be experienced again while retaining hidden menu
+
+Implement hidden menu where all scrolls that have been collected so far are displayed 
+- Show all scrolls available in game
+- Gray out any that have not been collected
+- Allow player to use arrow keys to hover over collected scrolls which will not be grayed out
+- When hover Player should see the senders name somewhere on the screen and after pressing enter display the scroll's message
+	- either draw the message over the screen or to the right on a side bar
+- Potentially allow mouse controls, when hovering over a scroll that has been collected display sender name
+- When right click display message
+
+Alternatively only show hidden menu when game has been completed
+allow player to see hidden menu even when new game+ selected
+
+Plan to add
+
+- Jump buffer to player character
+
+- focus camera on doors when transitioning from locked to unlocked state
+- subtle screen shake
+
+- cutscenes for first room - tutorial room, and last room - sonaria celebtration scene
+
+Tutorial Room
+	- Create room ith tutorial messages and scroll for the player to learn game controls
+
+Extra Playlist Links for tutorials
+
+Complete Platformer - Shaun Spaulding - https://www.youtube.com/playlist?list=PLPRT_JORnIupqWsjRpJZjG07N01Wsw_GJ
+Action RPG Tutorial - Shaun Spaulding - https://www.youtube.com/playlist?list=PLPRT_JORnIuosvhfax2TQTEmN7OYTcSvK
+
+Genertal GMS2 Tutorials - Shaun Spaulding - https://www.youtube.com/playlist?list=PLPRT_JORnIur4v19PHXCtJ5P05vaokFdP
+
+Farming RPG Tutorial - FriendlyCosmonaut - https://www.youtube.com/playlist?list=PLSFMekK0JFgzbFfj1vAsyluKTymnBiriY
+Menu Tutorial - FriendlyCosmonaut - https://www.youtube.com/playlist?list=PLSFMekK0JFgx2vmcCnttxxhrNVTjUB8R1
+
+Platform Shooter - HeartBeast - https://www.youtube.com/playlist?list=PL9FzW-m48fn3Ya8QUTsqU-SU6-UGEqhx6
+
+Personal Playlist of assorted tutorials
+	- https://www.youtube.com/playlist?list=PLu-8DT8pDrMZ5syNBM55grCAvs-TIJo2T
+
+
